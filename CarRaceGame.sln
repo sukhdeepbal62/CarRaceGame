@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRaceGame", "CarRaceGame.csproj", "{AE7A59F9-F34D-4975-B32B-CF77A0BD2FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTestProject1\UnitTesting.csproj", "{D655CC72-7794-43E3-87AB-A075E9F68C1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2720AED-D40F-4767-A07A-AD7B5EF94997}"
+	ProjectSection(SolutionItems) = preProject
+		bin\Debug\click.wav = bin\Debug\click.wav
+		bin\Debug\hand.gif = bin\Debug\hand.gif
+		bin\Debug\sound.wav = bin\Debug\sound.wav
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE7A59F9-F34D-4975-B32B-CF77A0BD2FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7A59F9-F34D-4975-B32B-CF77A0BD2FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7A59F9-F34D-4975-B32B-CF77A0BD2FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7A59F9-F34D-4975-B32B-CF77A0BD2FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D655CC72-7794-43E3-87AB-A075E9F68C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D655CC72-7794-43E3-87AB-A075E9F68C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D655CC72-7794-43E3-87AB-A075E9F68C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D655CC72-7794-43E3-87AB-A075E9F68C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {164490E7-11C8-4503-9B33-39EBF6F653D7}
+	EndGlobalSection
+EndGlobal
