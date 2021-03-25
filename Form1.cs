@@ -19,11 +19,12 @@ namespace CarRaceGame
         Factory pFactory = new Factory();  //factory class where each player have fix amount when game start.
 
         Punter[] punters = new Punter[3];    //punter class where player can put their bet on different racer.
-       
-        // sound play on click buttons
-        SoundPlayer sound = new SoundPlayer(@"sound.WAV");
-        SoundPlayer click = new SoundPlayer(@"click.WAV");
 
+        // sound play on click buttons
+        System.Media.SoundPlayer sound = new System.Media.SoundPlayer(Properties.Resources.sound);
+        System.Media.SoundPlayer click = new System.Media.SoundPlayer(Properties.Resources.click);
+
+       
         public MainForm()
         {
             InitializeComponent(); //  form initilize

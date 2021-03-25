@@ -93,13 +93,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="bin\Debug\click.wav" />
+    <EmbeddedResource Include="Resources\click.wav" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="bin\Debug\sound.wav" />
+    <EmbeddedResource Include="Resources\sound.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\hand.gif" />
+    <EmbeddedResource Include="Resources\hand.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
